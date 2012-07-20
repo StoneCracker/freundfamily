@@ -1,0 +1,53 @@
+p {text-align:left;color:#0c0c1e}
+body {background:#000000}
+h1 {font-size:2.5em;}
+#page
+{
+    width:900px;
+    float:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+#header
+{
+    background-image:url('./images/head_parchment.png');
+    background-repeat:no-repeat;
+    width:900;
+    height:250;
+    float:top;
+}
+#mainmenu 
+{
+    background-image:url('./images/Parchment.jpg');
+    width:900px;
+    height:50px;
+    float:left;
+    text-align:left;
+    font-family:"Book Antiqua", Times, serif;
+    font-size:1.0625em; /*17px/16=1.0625em*/
+}
+#content
+{
+    background-image:url('./images/Parchment.jpg');
+    background-color:#EEEEEE;
+    width:900px;
+    height:900px;
+    float:left;
+}
+#footer
+{
+    background-image:url('./images/Parchment.jpg');
+    clear:both;
+    text-align:center;
+}
+a:active
+{
+    letter-spacing:2px;
+}
+h1.header
+{
+    margin-bottom:0;
+    padding-top:10px;
+    padding-left:10px;
+    padding-bottom:20px;
+}
